@@ -1,0 +1,365 @@
+.hero-ambassadors {
+    width: 100%;
+
+    .ambassadors-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        h2 {
+            font-size: 40px;
+            width: 40%;
+            text-align: center;
+            margin-bottom: 12px;
+
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+        }
+
+        .stroke {
+            border: 2.6px solid;
+            color: #FFA500;
+            width: 27%;
+            border-radius: 4px;
+
+            @media(max-width: 700px) {
+                width: 80%;
+            }
+        }
+
+        p {
+            font-size: 24px;
+            color: #5b5b5b;
+            text-align: center;
+            width: 40%;
+
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+        }
+
+        button {
+            padding: 8px 34px;
+            border-radius: 20px;
+            background-color: #92C557;
+            border: 2px solid;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: 700;
+            font-family: 'Gilroy';
+        }
+
+        button:hover {
+            color: #92C557;
+            background-color: #ffffff;
+        }
+
+        // img {
+        //     @media(max-width: 700px) {
+        //         width: 100%;
+        //     }
+        // }
+    
+
+        .vector-image {
+            position: relative;
+
+            img {
+                position: absolute;
+                left: 311px;
+                bottom: 44px;
+
+                @media(max-width: 700px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.ambassadors-perk {
+    width: 100%;
+
+    .ambassadors-join {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+
+        @media(max-width: 700px) {
+            width: 100%;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
+
+.benefits-ambassadors {
+    width: 100%;
+
+    .benefits-container {
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+
+        @media(max-width: 700px) {
+            width: 100%;
+        }
+
+
+
+        .benefits {
+
+            .benefits-squad {
+                display: flex;
+                flex-direction: column;
+                background-color: #D7FBAC;
+                padding: 40px 32px;
+                border-radius: 28px;
+
+                @media(max-width: 700px) {
+                    width: 100%;
+                }
+
+                h3 {
+                    font-size: 30px;
+                    width: 44%;
+                    margin-bottom: 10px;
+                    font-weight: 700px;
+
+                    @media(max-width: 700px) {
+                        width: 100%;
+                    }
+                }
+
+                ul {
+                    list-style: disc;
+                    padding-left: 20px;
+
+                  
+
+                    li {
+                        font-size: 20px;
+                        width: 47%;
+
+                        @media(max-width: 700px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .benefits-image {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    right: 30px;
+                    bottom: -60px;
+
+                    @media(max-width:700px) {
+                        //width: 100%;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ambassadors-role {
+    width: 100%;
+    padding-top: 64px;
+
+    .ambassadors-container {
+        width: 86%;
+        margin: auto;
+        padding-top: 80px;
+
+        @media(max-width: 700px) {
+            width: 100%;
+        }
+
+        .duties {
+            display: flex;
+            justify-content: space-between;
+            background-color: #AADCEB;
+            padding: 14px 10px;
+            border-radius: 28px;
+
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+
+            .tasks {
+                width: 43%;
+
+                @media(max-width: 700px) {
+                    width: 100%;
+                }
+
+
+
+                h4 {
+                    font-size: 30px;
+                    margin-bottom: 12px;
+                    font-weight: 700;
+
+                    @media(max-width: 700px) {
+                        width: 100%;
+                    }
+                }
+
+                ul {
+                    list-style: disc;
+
+                    li {
+                        font-size: 20px;
+
+                        @media(max-width: 700px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ambassadors-img {
+            position: relative;
+
+            img {
+                position: absolute;
+                bottom: -44px;
+                left: 24px;
+
+                @media(max-width: 700px) {
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+
+
+.get-started {
+    width: 100%;
+    padding-top: 50px;
+
+    .get-started-steps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            font-size: 45px;
+            font-weight: 700;
+
+            @media(max-width: 700px) {
+                width: 70%;
+                text-align: center;
+            }
+        }
+
+        .guidelines {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            width: 70%;
+
+            @media(max-width: 700px) {
+                flex-direction: column;
+                //width: 100%;
+                align-items: center;
+            }
+
+            .guide {
+                width: 40%;
+
+                @media(max-width: 700px) {
+                    width: 100%;
+                }
+
+                .guide-img {
+                    display: flex;
+                }
+
+                .step {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h4 {
+                        font-size: 30px;
+                        font-weight: 700;
+                        margin-bottom: 0px;
+                    }
+
+                    p {
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.join-daya {
+    width: 100%;
+    padding-top: 60px;
+
+    .join-today {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        @media(max-width: 700px) {
+            flex-direction: column;
+        }
+
+        .get-started {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 40%;
+
+            @media(max-width: 700px) {
+                width: 100%;
+                align-items: start;
+            }
+
+            p {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 14px;
+            }
+
+            button {
+                padding: 12px 32px;
+                border-radius: 20px;
+                background-color: #A79ff9;
+                border: 2px solid;
+                color: #ffffff;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                font-weight: 700;
+                font-family: 'Gilroy';
+            }
+
+            button:hover {
+                color: #A79ff9;
+                background-color: #ffffff;
+                transition: 0.3s ease;
+                font-weight: 700;
+            }
+        }
+    }
+}

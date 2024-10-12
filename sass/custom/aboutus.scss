@@ -1,0 +1,68 @@
+.about {
+
+    .about-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            width: 28%;
+            text-align: center;
+            margin-bottom: 10px;
+
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+        }
+
+        .stroke {
+            border: 2.6px solid;
+            color: #FFA500;
+            width: 27%;
+            border-radius: 4px;
+
+            @media(max-width: 700px) {
+                width: 85%;
+            }
+        }
+
+        p {
+            width: 28%;
+            text-align: center;
+
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+        }
+
+        .img {
+            @media(max-width: 700px) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.about-us {
+    padding-top: 50px;
+
+    .our-mission {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        width: 81%;
+
+        @media(max-width: 700px) {
+            width: 100%;
+        }
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
