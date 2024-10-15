@@ -101,10 +101,17 @@ document.addEventListener('DOMContentLoaded', function() {
       hamburger.classList.remove('active');
       mobileMenu.classList.remove('active');
     }
+
+    if (mobileMenu.classList.contains('active')) {
+        mobileMenu.style.display === 'block';
+    } else {
+        mobileMenu.style.display = 'none';
+    }
   
     hamburger.addEventListener('click', toggleMenu);
   
     mobileMenuItems.forEach(item => {
-      item.addEventListener('click', closeMenu);
-    });
-  });
+      item.addEventListener('click', closeMenu)
+    })
+})
+
