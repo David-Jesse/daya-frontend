@@ -342,7 +342,7 @@
                 font-weight: 700;
                 margin-bottom: 14px;
                 text-align: end;
-                width: 81%;
+                width: 100%;
             }
 
             button {
@@ -366,7 +366,10 @@
         }
 
         .get-started-img {
-            width: 100%;
+            
+            img {
+                width: 100%;
+            }
         }
     }
 }

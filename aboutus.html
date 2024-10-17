@@ -21,13 +21,19 @@
                     </ul>
         
                     <div class="help">
-                        <div class="flag-icon">
-                            <div class="flag"></div>
-                            <img src="./assets/arrow-vector.png" alt="arrow-vector">
-                        </div>
+                        <div class="location-info">
+                            <img id="country-flag" alt="country flag">
+                            <img src="./assets/arrow-vector.png" alt="arrow-down" onclick="toggleDropdown(event)" class="arrow-down">
+
+                            <div id="dropdown" class="dropdown">
+                                <div class="dropdown-item">
+                                    <img src="https://flagcdn.com/24x18/ke.png" alt="Kenyan Flag" />
+                                </div>
+                            </div>
+                        </div>  
                         <p><a href="/">Help</a></p>
-                    </div>
-        
+                </div>
+    
                     <button>Sign up</button>
                 </div>
 

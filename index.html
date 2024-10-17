@@ -21,10 +21,16 @@
                     </ul>
         
                     <div class="help">
-                        <div class="flag-icon">
-                            <div class="flag"></div>
-                            <img src="./assets/arrow-vector.png" alt="arrow-vector">
-                        </div>
+                        <div class="location-info">
+                            <img id="country-flag" alt="country flag">
+                            <img src="./assets/arrow-vector.png" alt="arrow-down" onclick="toggleDropdown(event)" class="arrow-down">
+
+                            <div id="dropdown" class="dropdown">
+                                <div class="dropdown-item">
+                                    <img src="https://flagcdn.com/24x18/ke.png" alt="Kenyan Flag" />
+                                </div>
+                            </div>
+                        </div>  
                         <p><a href="/">Help</a></p>
                     </div>
         
@@ -127,7 +133,7 @@
                 <div class='learn-more'>
                     <div class='perks'>
                         <h4>Your data is valuable. Daya gives you data ownership and automy</h4>
-                        <h5>(and we can also show you how to mine your data safely for a profit *wink*)</h5>
+                        <h5>(and we can also show you how to mine your data safely for a profit)</h5>
                         <p>Take control of your data with well-informed choices on what your data can be used for</p>
                         <button>Learn More</button>
                     </div>
@@ -171,18 +177,18 @@
                         <p>Follow Us</p>
                         
                         <div class='socials'>
-                            <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><img src="./assets/facebook.png" alt="facebook"></a>
+                            <a href="https://web.facebook.com/login/?_rdc=1&_rdr" target="_blank"><img src="./assets/facebook.png" alt="facebook"></a>
                             <a href="https://web.facebook.com/login/?_rdc=1&_rdr"><span>Facebook</span></a>
                         </div>
     
                         <div class='socials'>
-                            <a href="https://x.com/home/lang=en"><img src="./assets/twitter.png" alt="twitter-logo"></a>
-                            <a href="https://x.com/home?lang=en"><span>Twitter</span></a>
+                            <a href="https://x.com/home/lang=en" target="_blank"><img src="./assets/twitter.png" alt="twitter-logo"></a>
+                            <a href="https://x.com/home?lang=en" target="_blank"><span>Twitter</span></a>
                         </div>
     
                         <div class='socials'>
-                            <a href="https://www.instagram.com/accounts/login/hl=en"><img src="./assets/instagram.png" alt="instagram-logo"></a>
-                            <a href="https://www.instagram.com/accounts/login/hl=en"><span>Instagram</span></a>
+                            <a href="https://www.instagram.com/accounts/login/hl=en" target="_blank"><img src="./assets/instagram.png" alt="instagram-logo"></a>
+                            <a href="https://www.instagram.com/accounts/login/hl=en" target="_blank"><span>Instagram</span></a>
                         </div>
                     </div>
     
@@ -204,7 +210,6 @@
                     </div>
                 
                 </div>
-            
             </div>
 		</div>
 	</footer>
